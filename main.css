@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+.w-1250 {
+    width: 1250px;
+    margin: 0 auto;
+    background: #EFF0F3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    height: 86px;
+    background-color: #EFF0F3;
+}
+
+.logo {
+    margin: 20px 250px 0 0;
+    color: #001858;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+    margin-top: 32px;
+}
+
+header ul li h2 a {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+header button {
+    display: flex;
+    margin: 20px 0 0 50px;
+    width: 213px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #6246EA;
+    padding: 10px 17px;
+    gap: 10px;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me h1 {
+    color: #2B2C34;
+    width: 617px;
+    margin: 200px 181px 33px 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about-me p {
+    width: 652px;
+    /*border-left: 3px solid #2B2C34;*/
+    color: #9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.text::before {
+    content: "";
+    width: 3px;
+    height: 56px;
+    background-color: #2B2C34;
+    margin-right: 12px;
+}
+
+.email-form {
+    display: flex;
+    margin: 33px 0 351px 0;
+}
+
+#email {
+    width: 444px;
+    height: 67px;
+    border-radius: 8px;
+    text-indent: 25px;
+    background-color: #FFFFFE;
+    color: #C0C0C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email-form button {
+    height: 67px;
+    margin-left: 20px;
+    padding: 20px 23px 19px 23px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.img-lern-coding {
+    margin-top: 206px;
+}
+
+.navigation-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-button p {
+    color: #2B2C34;
+    margin-bottom: 56px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.navigation-button button {
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card-list {
+    display: flex;
+    gap: 37px;
+}
+
+.technology-card {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: #FFFFFE;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 65px 130px 30px 30px;
+}
+
+.technology-card p {
+    margin-left: 30px;
+}
+
+.technology-card:hover {
+    background-color: #6246EA;
+    color: #FFFFFE;
+    border-radius: 8px;
+    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
+}
