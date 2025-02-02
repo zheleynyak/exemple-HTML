@@ -147,7 +147,7 @@ header button {
 
 .navigation-button p {
     color: #2B2C34;
-    margin-bottom: 56px;
+    margin: 148px 0 33px 0;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -157,6 +157,7 @@ header button {
 .navigation-button button {
     display: flex;
     gap: 12px;
+    margin: 152px 0 36px 0;
     color: #2B2C34;
     text-align: right;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -209,34 +210,6 @@ header button {
     box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
 }
 
-.fuatured-article-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 148px;
-}
-
-.fuatured-article-nav p {
-    color: #2B2C34;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: capitalize;
-}
-
-.fuatured-article-nav button {
-    display: flex;
-    gap: 12px;
-    color: #2B2C34;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.fuatured-article-nav svg {
-    margin-top: 7px;
-    display: flex;
-}
-
 .featured-article-card {
     display: flex;
     gap: 56px;
@@ -253,10 +226,6 @@ header button {
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     flex-direction: column;
     align-items: baseline;
-}
-
-.JSbook img {
-    border-radius: 13px;
 }
 
 .JSbook h3 {
@@ -292,7 +261,7 @@ header button {
     text-transform: capitalize;
 }
 
-.mac {
+.card {
     margin-top: 30px;
     display: flex;
     width: 300px;
@@ -303,10 +272,6 @@ header button {
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     flex-direction: column;
     align-items: baseline;
-}
-
-.mac img {
-    border-radius: 13px;
 }
 
 .mac h3 {
@@ -319,23 +284,6 @@ header button {
     text-transform: capitalize;
 }
 
-.CSS {
-    margin-top: 30px;
-    display: flex;
-    width: 300px;
-    height: 425px;
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #FFFFFE;
-    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
-    flex-direction: column;
-    align-items: baseline;
-}
-
-.CSS img {
-    border-radius: 13px;
-}
-
 .CSS h3 {
     margin: 25px 0 30px 0;
     width: 260px;
@@ -344,23 +292,6 @@ header button {
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
-}
-
-.spruce {
-    margin-top: 30px;
-    display: flex;
-    width: 300px;
-    height: 425px;
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #FFFFFE;
-    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
-    flex-direction: column;
-    align-items: baseline;
-}
-
-.spruce img {
-    border-radius: 13px;
 }
 
 .spruce h3 {
@@ -372,3 +303,4 @@ header button {
     font-weight: 700;
     text-transform: capitalize;
 }
+
