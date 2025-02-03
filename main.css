@@ -11,18 +11,18 @@
 .w-1250 {
     width: 1250px;
     margin: 0 auto;
-    background: #EFF0F3;
 }
 
 header {
+    width: 1250px;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     height: 86px;
     background-color: #EFF0F3;
 }
 
-.logo {
+header p {
     margin: 20px 250px 0 0;
     color: #001858;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -30,7 +30,7 @@ header {
     font-weight: 600;
 }
 
-.logo span {
+header p span {
     color: #6246EA;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
@@ -86,7 +86,6 @@ header button {
 
 .about-me p {
     width: 652px;
-    /*border-left: 3px solid #2B2C34;*/
     color: #9A9494;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
@@ -107,7 +106,6 @@ header button {
 }
 
 .email-form {
-    display: flex;
     margin: 33px 0 351px 0;
 }
 
@@ -159,6 +157,7 @@ header button {
     gap: 12px;
     margin: 152px 0 36px 0;
     color: #2B2C34;
+    background-color: #fff;
     text-align: right;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
@@ -210,28 +209,30 @@ header button {
     box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
 }
 
-.featured-article-card {
+.article-card-shell {
     display: flex;
-    gap: 56px;
+    gap: 16px;
 }
 
-.JSbook {
-    margin-top: 30px;
+.card {
     display: flex;
+    padding: 20px;
     width: 300px;
     height: 425px;
-    padding: 20px;
     border-radius: 12px;
     background-color: #FFFFFE;
-    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     flex-direction: column;
     align-items: baseline;
 }
 
-.JSbook h3 {
+.card:hover {
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+
+.card h3 {
+    height: 75px;
     color: #2B2C34;
-    margin: 25px 0 80px 0;
-    width: 260px;
+    margin: 25px 0 30px 0;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -261,46 +262,158 @@ header button {
     text-transform: capitalize;
 }
 
-.card {
+.more-articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.more-articles-button {
+    padding: 20px 23px 19px 23px;
+    border-radius: 8px;
+    background-color: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.mailbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 161px;
+}
+
+.subscribe-newsletter h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.subscribe-newsletter p {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email-form-newsletter {
     margin-top: 30px;
     display: flex;
-    width: 300px;
-    height: 425px;
-    padding: 20px;
-    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-form-newsletter button {
+    height: 67px;
+    margin-left: 20px;
+    padding: 20px 23px 19px 23px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#email-newletter {
+    width: 444px;
+    height: 67px;
+    border-radius: 8px;
+    text-indent: 25px;
     background-color: #FFFFFE;
-    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
-    flex-direction: column;
-    align-items: baseline;
+    color: #C0C0C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
-.mac h3 {
+footer {
+    margin-top: 118px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.logo {
+    color: #001858;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer p {
+    width: 284px;
+    margin: 20px 160px 20px 0;
     color: #2B2C34;
-    margin: 25px 0 55px 0;
-    width: 260px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-media ul {
+    margin-top: 26px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-navigation h3 {
+    color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
-.CSS h3 {
-    margin: 25px 0 30px 0;
-    width: 260px;
+.footer-navigation ul {
+    display: flex;
+    gap: 95px;
+    padding: 0;
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.spruce h3 {
-    margin: 25px 0 55px 0;
-    width: 260px;
+.footer-navigation ul li {
+    margin-top: 20px;
+}
+
+.footer-navigation ul li ol {
+    padding: 0;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.copyright hr {
+    width: 100%;
+    height: 1px;
+    background-color: #C0C0C0;
+}
+
+.copyright p {
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
 }
-
